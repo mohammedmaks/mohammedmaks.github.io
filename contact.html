@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- linking the style.css. Also linking favicon and custom font 'roboto' the meta tag makes the page responsive-->
+  <link rel="icon" href="img/favicon.ico" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>contact</title>
+</head>
+<body>
+    <!-- creating the horizontal nav bar-->
+
+  <div class="maks">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="welcome.html"><img src="img/favicon.ico" alt="our logo"></a>
+      </li>  
+      <li class="nav-item">
+        <a class="nav-link " href="welcome.html">Welcome</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="food menu.html">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="Contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>  
+
+<!--Making a jumbotron for intro purposes -->
+
+<div class="jumbotron intro">
+<h1>Welcome to our contact page. </h1>
+<p> Here you can find out how to reach us, find us or register for updates!</p>
+</div>
+
+<!-- creating contact information using mailto and tel-->
+<div class="location">
+  <p>Find out how to contact us here!</p>
+</div>
+<div class="contact-us">
+<label for ="Email"> Email Us at:</label><a href="mailto:mohammedmaks16@gmail.com"> Mohammedmaks16@gmail.com</a><br>
+<label for ="Telephone"> Tel:</label><a href="tel:+44 7507456055"> +44 7507456055 </a>
+</div>
+
+<!-- using an iframe to create a map linked to company location-->
+<div class="location">
+<p>Find us here!</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10079.851321390308!2d-0.1406983!3d50.8318524!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x43cbc5c91cabd229!2sBellerbys+College+Brighton!5e0!3m2!1sen!2suk!4v1527435080660" width="600" height="450" frameborder="0" style="width: 100%; border:0" allowfullscreen></iframe>
+</div>
+<br>
+<form>
+  
+  <!-- Simple for to collect user details-->
+  <div class="location">
+  <p>Register with us for updates and great discounts!</p>
+</div>
+
+  <div class="form-row">
+    <div class="col-md-4">
+      <label>First Name</label>
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col-md-4">
+      <label>Last Name</label> 
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+  
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Kindly enter your Email.">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Kindly enter a STRONG Password.">
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Register</button>
+</form>
+<br>
+
+<!--creating a container with rows and columns for the footer with favicons and links to other pages-->
+
+<footer class="container-fluid text-center">
+  <br>
+  <h3>Keep in contact. Keep cool. Keep informed</h3><br>
+  <div class="row">
+    <p class="col-sm-4">&copy;Junk Central Ltd. || <a href="about.html">About Us</a> <a href="contact.html">Contact page</a></p>
+<ul class="col-sm-8">   
+    <li class="col-sm-1">
+      <a href="https://twitter.com/" target="_blank" >
+        <img class="footer-logo" src="img/twitter logo.png" alt="twitter logo">
+        </a>
+    </li> 
+    <li class="col-sm-1">
+      <a href="https://instagram.com/" target="_blank" >
+        <img class="footer-logo" src="img/insta logo.png" alt="instagram logo">
+        </a>
+    </li> 
+    <li class="col-sm-1">
+      <a href="https://Facebook.com/" target="_blank" >
+      <img class="footer-logo" src="img/facebook.png" alt="Facebook">
+        </a>
+    </li> 
+    <li class="col-sm-1">
+      <a href="https://youtube.com/" target="_blank" >
+      <img class="footer-logo" src="img/youtube.png" alt="youtube logo">
+        </a>
+    </li> 
+  </ul>
+  </div>
+</footer> 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+
+</html>
+

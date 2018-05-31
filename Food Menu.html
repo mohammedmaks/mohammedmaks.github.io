@@ -1,0 +1,156 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- linking the javascript for lightbox etc and linking the style.css. Also linking favicon and custom font 'roboto' the meta tag makes the page responsive-->
+  <link rel="icon" href="img/favicon.ico" type="image/gif" sizes="16x16">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+  
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   
+   <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+  
+  <script type="text/javascript" src=js/lightbox-plus-jquery.min.js></script>
+  
+  <title>Meals Menu</title>
+
+</head>
+<body>
+  <!-- creating the horizontal nav bar-->
+<div class="maks">
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link" href="welcome.html"><img src="img/favicon.ico" alt="our logo"></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="Welcome.html">Welcome</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="Food menu.html">Menu</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="About.html">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="Contact.html">Contact</a>
+  </li>
+</ul>
+</div>
+
+<!--Making a jumbotron for intro purposes -->
+
+<div class="jumbotron intro">
+    <h1>Food Menu</h1>      
+    <p>Here you can take a look at some of our delicious meals on offer!</p>
+</div>
+  <!--food menu(gallery) page with all the menu items. Made with lightbox also. -->
+<div class="container-fluid bg-3 text-center">    
+  <h3>Junk Mains</h3><br>
+  <div class="row">
+     <div class="meals-menu">
+        <div class="col-sm-3">
+          <a href="img/burger.jpg" data-lightbox="mygallery"><img src="img/burger.jpg" class="img-responsive" style="width:100%" alt="classic burger"></a>
+          <h2>Classic beef burger</h2>
+        </div>
+        <div class="col-sm-3"> 
+          <a href="img/korean burger.jpg" data-lightbox="mygallery"><img src="img/korean burger.jpg" class="img-responsive"  style="width:100%" alt="Korean burger"></a>      
+          <p>Special Korean Burger</p>
+        </div>
+        <div class="col-sm-3"> 
+          <a href="img/hotdog.jpg" data-lightbox="mygallery"><img src="img/hotdog.jpg" class="img-responsive" style="width:100%" alt="hotdog"></a>
+        <p>HotDog roulette</p>
+        </div>
+        <div class="col-sm-3">
+          <a href="img/salad.jpg" data-lightbox="mygallery"><img src="img/salad.jpg" class="img-responsive" style="width:100%" alt=" salad"></a>
+          <p>Healthy Salad</p>
+        </div>
+      </div>
+      </div>
+    </div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <h3>Junk Sides</h3><br>
+  <div class="row">
+     <div class="meals-menu">
+        <div class="col-sm-3">
+          <a href="img/chips.jpg" data-lightbox="mygallery"><img src="img/chips.jpg" class="img-responsive" style="width:100%" alt="Chips"></a>
+          <p>Chips</p>
+        </div>
+        <div class="col-sm-3"> 
+          <a href="img/wings.jpg" data-lightbox="mygallery"><img src="img/wings.jpg" class="img-responsive" style="width:100%" alt="wings"></a>      
+          <p>Deep fried barbecue wings</p>
+        </div>
+        <div class="col-sm-3"> 
+          <a href="img/fried rice.jpg" data-lightbox="mygallery"><img src="img/fried rice.jpg" class="img-responsive" style="width:100%" alt="classic burger"></a>    
+          <p>Fried rice</p>
+        </div>
+        <div class="col-sm-3">
+          <a href="img/nuggets.jpeg" data-lightbox="mygallery"><img src="img/nuggets.jpeg" class="img-responsive" style="width:100%" alt="nuggets "></a>      
+          <p>Deep fried chicken nuggets</p>
+        </div>
+      </div>
+      </div>
+    </div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <h3>Junk Drinks</h3><br>
+  <div class="row">
+     <div class="meals-menu">
+        <div class="col-sm-3">
+          <a href="img/lemonade.jpg" data-lightbox="mygallery"><img src="img/lemonade.jpg" class="img-responsive" style="width:100%" alt="lemonade"></a>
+          <p>Club Lemonade</p>
+        </div>
+        <div class="col-sm-3"> 
+          <a href="img/juice.jpg" data-lightbox="mygallery"><img src="img/juice.jpg" class="img-responsive" style="width:100%" alt="juice"></a>      
+          <p>Fresh Juice</p>
+        </div>
+        <div class="col-sm-3"> 
+          <a href="img/beer.jpeg" data-lightbox="mygallery"><img src="img/beer.jpeg" class="img-responsive" style="width:100%" alt="beer"></a>    
+          <p>Beer (18+)</p>
+        </div>
+        <div class="col-sm-3">
+          <a href="img/water.jpg" data-lightbox="mygallery"><img src="img/water.jpg" class="img-responsive" style="width:100%" alt="water"></a>      
+          <p>Mineral Water</p>
+        </div>
+      </div>
+      </div>
+    </div><br>
+
+<!--creating a container with rows and columns for the footer with favicons and links to other pages-->
+
+<footer class="container-fluid text-center">
+  <br>
+  <h3>Keep in contact. Keep cool. Keep informed</h3><br>
+  <div class="row">
+    <p class="col-sm-4">&copy;Junk Central Ltd. || <a href="about.html">About Us</a> <a href="contact.html">Contact page</a></p>
+<ul class="col-sm-8">   
+    <li class="col-sm-1">
+      <a href="https://twitter.com/" target="_blank" >
+        <img class="footer-logo" src="img/twitter logo.png" alt="twitter logo">
+        </a>
+    </li> 
+    <li class="col-sm-1">
+      <a href="https://instagram.com/" target="_blank" >
+        <img class="footer-logo" src="img/insta logo.png" alt="instagram logo">
+        </a>
+    </li> 
+    <li class="col-sm-1">
+      <a href="https://Facebook.com/" target="_blank" >
+      <img class="footer-logo" src="img/facebook.png" alt="Facebook">
+        </a>
+    </li> 
+    <li class="col-sm-1">
+      <a href="https://youtube.com/" target="_blank" >
+      <img class="footer-logo" src="img/youtube.png" alt="youtube logo">
+        </a>
+    </li> 
+  </ul>
+  </div>
+</footer> 
+</body>
+</html>

@@ -1,0 +1,184 @@
+
+body{
+	background-color: white;
+}
+/*Navigation */
+.maks ul {
+	    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    min-width: 305px;
+}
+
+
+.nav li {
+    float: left;
+    font-size: 28px;
+}
+
+ .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li :hover{
+	color: white;
+}
+.nav li a:hover {
+    background-color: rgb(234, 189, 13);
+}
+
+.active {
+    background-color: rgb(234, 189, 13);
+}
+
+/*styling the bootstrap Carousel*/
+.carousel-item{
+   background-color:white;
+   justify-content: center;
+   margin: auto;
+   
+}
+
+.carousel-caption p, h5{
+  color:rgb(234, 189, 13);
+  font-family: 'Roboto', sans-serif;
+  background-color: #333;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: auto;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 100%;
+  border: 5px solid #333;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: rgb(234, 189, 13);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgb(234, 189, 13);
+}
+/* jumbotron-intro*/
+.jumbotron{
+    background-color: rgb(234, 189, 13);
+    border-radius: 0%;
+}
+
+.intro{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+.intro h1{
+	text-align: center;
+	color: rgb(51,51,51);
+	font-size: 30px;
+
+}
+.intro p{
+	font-size: 16px;
+	color: rgb(51,51,51);
+}
+
+/*food menu*/
+.meals-menu img{
+  width: auto;
+  height: auto;
+}
+
+.meals-menu p{
+ font-family: 'Roboto', sans-serif;
+ padding-top: auto;
+}
+
+/* contact page*/
+.location{
+	text-align: center;
+}
+.location p{
+	font-family: 'Roboto', sans-serif;
+    border: 5px solid rgb(234, 189, 13);
+}
+.form-row {
+	justify-content: center;
+
+}
+
+.contact-us{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+button{
+	justify-content: flex-end;
+
+}
+
+/*Footer section*/
+footer {
+    font-family: 'Roboto', sans-serif;
+	background-color: rgb(51,51,51);
+	color: rgb(234, 189, 13);
+	height: 200px;
+	font-size: 16px;
+    }
+
+footer ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+
+footer li img{
+	width: 70px;
+	height: auto;
+	padding: 10px;
+}
+
+footer a{
+	color: rgb(234, 189, 13);
+	text-decoration: underline;
+}
+.content li{
+	list-style-position: inside;
+}
+/*A simple media query for mobile phones to make sure page remains legible.*/
+
+@media only screen and (max-width:540px){
+  .nav li {
+    font-size: 10px;
+  }
+  
+  footer {
+    font-size:10px;
+  }
+
+  footer li img{
+    width: 50px;
+    justify-content: center;
+  }
+
+}
+
+/*Tablets*/
+@media only screen and (min-width: 705px){
+
+
+
+
